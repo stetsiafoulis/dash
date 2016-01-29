@@ -1,0 +1,258 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Data Tables</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a>Tables</a>
+            </li>
+            <li class="active">
+                <strong>Data Tables</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+
+
+<div class="wrapper wrapper-content">
+<div class="row">
+    <div class="col-lg-3">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <span class="label label-success pull-right">Monthly</span>
+                <h5>Income</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">40 886,200</h1>
+
+                <div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>
+                <small>Total income</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <span class="label label-info pull-right">Annual</span>
+                <h5>Orders</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">275,800</h1>
+
+                <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i></div>
+                <small>New orders</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <span class="label label-primary pull-right">Today</span>
+                <h5>Visits</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">106,120</h1>
+
+                <div class="stat-percent font-bold text-navy">44% <i class="fa fa-level-up"></i></div>
+                <small>New visits</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <span class="label label-danger pull-right">Low value</span>
+                <h5>User activity</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins">80,600</h1>
+
+                <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i></div>
+                <small>In first month</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="ibox float-e-margins">
+            <div class="ibox-content">
+                <div>
+                                        <span class="pull-right text-right">
+                                        <small>Average value of sales in the past month in: <strong>United states</strong></small>
+                                            <br/>
+                                            All sales: 162,862
+                                        </span>
+                    <h3 class="font-bold no-margins">
+                        Half-year revenue margin
+                    </h3>
+                    <small>Sales marketing.</small>
+                </div>
+
+                <div class="m-t-sm">
+
+                    <div class="row">
+                        <div class="col-md-8" ng-controller="chartJsCtrl as chart">
+                            <div>
+                              <canvas linechart options="chart.lineOptions" data="chart.lineDataDashboard4" height="114" responsive="true"></canvas> 
+			  
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="stat-list m-t-lg">
+                                <li>
+                                    <h2 class="no-margins">2,346</h2>
+                                    <small>Total orders in period</small>
+                                    <div class="progress progress-mini">
+                                        <div class="progress-bar" style="width: 48%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2 class="no-margins ">4,422</h2>
+                                    <small>Orders in last month</small>
+                                    <div class="progress progress-mini">
+                                        <div class="progress-bar" style="width: 60%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="m-t-md">
+                    <small class="pull-right">
+                        <i class="fa fa-clock-o"> </i>
+                        Update on 16.07.2015
+                    </small>
+                    <small>
+                        <strong>Analysis of sales:</strong> The value has been changed over time, and last month reached a level over $50,000.
+                    </small>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <span class="label label-warning pull-right">Data has changed</span>
+                <h5>User activity</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <small class="stats-label">Pages / Visit</small>
+                        <h4>236 321.80</h4>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <small class="stats-label">% New Visits</small>
+                        <h4>46.11%</h4>
+                    </div>
+                    <div class="col-xs-4">
+                        <small class="stats-label">Last week</small>
+                        <h4>432.021</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <small class="stats-label">Pages / Visit</small>
+                        <h4>643 321.10</h4>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <small class="stats-label">% New Visits</small>
+                        <h4>92.43%</h4>
+                    </div>
+                    <div class="col-xs-4">
+                        <small class="stats-label">Last week</small>
+                        <h4>564.554</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <small class="stats-label">Pages / Visit</small>
+                        <h4>436 547.20</h4>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <small class="stats-label">% New Visits</small>
+                        <h4>150.23%</h4>
+                    </div>
+                    <div class="col-xs-4">
+                        <small class="stats-label">Last week</small>
+                        <h4>124.990</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="row">
+<div class="col-lg-12">
+<div class="ibox float-e-margins">
+<div class="ibox-title">
+    <h5>Table with data from $scope - <strong>(The angular way)</strong></h5>
+
+    <div ibox-tools></div>
+</div>
+<div class="ibox-content">
+	<div ng-controller="paymentsCtrl">
+    <table datatable="ng" class="table table-striped table-bordered table-hover dataTables-example">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Seller</th>
+			<th>Buyer</th>
+            <th>CVP</th>
+            <th>Ada</th>
+			
+           
+        </tr>
+        </thead>
+        <tbody>
+		
+        <tr ng-repeat="otepayment in otepayments">
+            <td>{{ otepayment.date }}</td>
+            <td>{{ otepayment.amount }}</td>
+            <td>{{ otepayment.seller }}</td>
+			<td>{{ otepayment.buyer }}</td>
+            <td>{{ otepayment.cpv }}</td>
+            <td>{{ otepayment.ada }}</td>
+			
+           
+        </tr>
+        </tbody>
+    </table>
+	</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
